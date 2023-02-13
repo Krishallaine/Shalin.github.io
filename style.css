@@ -12,7 +12,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(240, 149, 228);
+    background-color: white;
     position:sticky;
     top: 0;
 }
@@ -33,9 +33,9 @@ font-weight: bold;
     transition: all .5s ease;
 }
 .navbar ul li a:hover{
-    background-color: white;
-    color: black;
-    box-shadow: 0 0 10px white;
+    background-color:black;
+    color: white;
+    box-shadow: 0 0 10px black;
 }
 /* HOME*/
 #home{
@@ -113,11 +113,11 @@ font-weight: bold;
 /*ABOUT ME*/
 #aboutme{
     display: flex;
-    background-image: url('./img/1.jpg');
+    background-image: url('img/idk.jpg');
     flex-direction: column;
     box-sizing: border-box;
     padding: 30px;
-    color:  rgb(240, 149, 228);
+    color:  white;
     margin-bottom: 0px;
 }
 #pic{
@@ -128,6 +128,7 @@ font-weight: bold;
     height: 400px;
     margin-left: 0.5%;
     margin-right: 3%;
+    border: 5px solid black;
 }
 #intro{
     display: flex;
@@ -146,8 +147,8 @@ font-weight: bold;
 #somepics{
     display: flex;
     flex-direction: column;
-    background: url('img/b1.jpg') no-repeat center center/cover;
-    color:  black;
+    background: url('img/bb.jpg') no-repeat center center/cover;
+    color:  white;
     align-items: center;
     padding: 20px;
 }
@@ -158,9 +159,10 @@ font-weight: bold;
     box-sizing: border-box;
 }
 .gallery img {
-    width: 350px;
-    height: 400px;
+    width: 300px;
+    height: 390px;
     margin: 15px;
+    border: 5px solid white;
 }
   
 /*Education*/
@@ -171,9 +173,8 @@ font-weight: bold;
     font-size: 1.5rem;
     text-align: center;
     align-items: center;
-    padding: 20px;
     background: url('img/educ1.jpg') no-repeat center center/cover;
-    color:black;
+    color:white;
     
 }
 .row{
@@ -193,7 +194,7 @@ font-weight: bold;
     text-align: column;
     padding: 10px;
     border-radius: 15px;
-    background: linear-gradient(to bottom, rgb(240, 149, 228) 50%, black 50%);
+    background: linear-gradient(to bottom, white, black 50%);
     background-size: 100% 200%;
     transition: all .8s;
 }
@@ -204,9 +205,9 @@ font-weight: bold;
 }  
 .box:hover{
     background-position: left bottom;
-    color: rgb(238, 124, 227);
+    color: white;
     border: none;
-    box-shadow: 0 0 20px  rgb(165, 46, 149);
+    box-shadow: 0 0 20px  black;
 }
 .box img{
     width: 110px;
