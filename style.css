@@ -218,7 +218,7 @@ font-weight: bold;
 }
 #send:hover{
     cursor: pointer;
-    box-shadow: 0 0 50px rgb(240, 149, 228);
+    box-shadow: 0 0 50px white;
 
 }
 textarea {
@@ -261,18 +261,17 @@ textarea {
 .gmail-button {
     background-image: url('./img/gmail.jpg');
 }
-
-  .social-media-button:hover{
+.social-media-button:hover{
     cursor: pointer;
     background-color:white;
     color: black;
     box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
     font-weight: bold;
-  }
+}
 
-  footer {
+footer {
     background-color: white;
     padding: 1em;
     text-align: center;
-  }
+ }
   
